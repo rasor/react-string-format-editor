@@ -1,7 +1,10 @@
 /**
  * Re-export Components
  */
-import ExampleComponent from './components/samples/ExampleComponent'
 import EditorWrapper from './components/EditorWrapper/EditorWrapper'
+import ExampleFC from './components/samples/ExampleFC'
+import ExampleComponent from './components/samples/ExampleComponent'
 
-export { ExampleComponent, EditorWrapper }
+//ExampleFC
+
+export { EditorWrapper, ExampleFC, ExampleComponent }
