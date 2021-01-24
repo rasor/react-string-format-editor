@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-import ExampleComponent from 'react-string-format-editor'
+import { ExampleComponent } from 'react-string-format-editor'
 
 export default class App extends Component {
   render () {
