@@ -7,4 +7,8 @@ import ExampleComponent from './components/samples/ExampleComponent'
 
 //ExampleFC
 
-export { EditorWrapper, ExampleFC, ExampleComponent }
+export { 
+    EditorWrapper, 
+    ExampleFC, 
+    ExampleComponent 
+}

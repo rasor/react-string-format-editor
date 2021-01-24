@@ -26,6 +26,11 @@ class Example extends React.Component {
 }
 ```
 
+## Dependencies / Credits
+
+* [jpuri/react-draft-wysiwyg](https://github.com/jpuri/react-draft-wysiwyg)  
+[How to add a reusable rich text editor in your React app using Draftjs and react-draft-Wysiwyg.](https://medium.com/@hadijah315/how-to-add-a-reusable-rich-text-editor-in-your-react-app-using-draftjs-and-react-draft-wysiwyg-c02164ddd3a7)
+
 ## License
 
 MIT © [rasor](https://github.com/rasor)
