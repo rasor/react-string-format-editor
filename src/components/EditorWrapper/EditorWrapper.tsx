@@ -4,10 +4,9 @@ import * as React from "react";
 
 // import { EditorState } from 'draft-js';
 import { Editor } from 'react-draft-wysiwyg';
-//import css from 'react-draft-wysiwyg/dist/react-draft-wysiwyg.css';
-//import css from './EditorWrapper.css';
-import 'react-draft-wysiwyg/dist/react-draft-wysiwyg.css';
-import './EditorWrapper.css';
+//import 'react-draft-wysiwyg/dist/react-draft-wysiwyg.css';
+//import css from './react-draft-wysiwyg.module.css';
+import css2 from './EditorWrapper.module.css';
 
 // dist/index.js, dist/index.es.js...
 // [!] Error: 'Editor' is not exported by node_modules\react-draft-wysiwyg\dist\react-draft-wysiwyg.js
@@ -20,9 +19,10 @@ import './EditorWrapper.css';
 const EditorWrapper: React.FC = () => {
   return (
     <Editor
-      wrapperClassName="rich-editor demo-wrapper"
-      editorClassName="demo-editor"
-    />
+//      wrapperClassName="rich-editor demo-wrapper"
+      wrapperClassName={css2["rich-editor"] + ' ' + css2["demo-wrapper"]}
+//      editorClassName="demo-editor"
+/>
   );
 };
 

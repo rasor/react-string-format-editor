@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 
 import { ExampleComponent, EditorWrapper } from 'react-string-format-editor'
 import './App.css'
+import 'react-draft-wysiwyg/dist/react-draft-wysiwyg.css';
 
 export default class App extends Component {
   render () {
