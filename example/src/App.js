@@ -1,11 +1,12 @@
 import React, { Component } from 'react'
 
 import { ExampleComponent, EditorWrapper } from 'react-string-format-editor'
+import './App.css'
 
 export default class App extends Component {
   render () {
     return (
-      <div>
+      <div className="app">
         <div>
           <EditorWrapper />
         </div>
